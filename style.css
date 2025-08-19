@@ -1,9 +1,40 @@
 body{
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
     background-color: black;
     color: white;
     font-family: cursive;
-    background-image:url();
+    background-image:url(trevor.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.linha{
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    font-size: large    ;
+}
+
+.tudo{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.main{
+    flex: 8;
+    margin-top: 120px;
 }
 .tr{   
     text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
 }
